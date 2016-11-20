@@ -99,7 +99,7 @@
 
     		if($error==0){
     			//header('Location:JOregister2.php');
-    			$sql = "SELECT * FROM vehicle, jobservce, customer WHERE (vehicle.v_no = customer.v_no AND jobservce.v_no = customer.v_no AND vehicle.v_no = '$vno') LIMIT 1";
+    			$sql = "SELECT * FROM vehicle, jobservce, customer WHERE (vehicle.v_no = jobservce.v_no AND jobservce.c_nic = customer.NIC AND vehicle.v_no = '$vno') LIMIT 1";
     			$con2 = new DatabaseCon($conn);
 				$result = $con2->getConnection($sql);
 				$count = $con2->getRowCount($result);
@@ -169,7 +169,7 @@
 				<dd><div class="form-inputs" id="checkUser" style="padding-bottom: 0%;"><input style="width:50%;" type="text" maxlength="10" id="nic" name="nic" input required="required" value="" autocomplete="off" onkeyup="showHint(this.value)"/></div>
 				<!--<input type='button' id='check_username_availability' value='Check Availability'>-->
 				<?php 
-				 	echo "<div class='error' id='nicCheck'><?php echo $nicError; ?></div>";
+				 	echo "<div class='error' id='nicCheck'>".$nicError."</div>";
 				?>
 			
 				</dd>

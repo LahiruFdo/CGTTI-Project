@@ -203,7 +203,7 @@
 			<div class="profInfo">
 				<?php
 
-					$sql = "SELECT job_no,job_typ,sec_code,rDate,name FROM jobservce, section WHERE ( jobservce.sec_code = section.code AND closedDate = NULL) ORDER BY rDate DESC";	//get the details of the ongoing jobs
+					$sql = "SELECT job_no,job_typ,sec_code,rDate,name FROM jobservce, section WHERE ( jobservce.sec_code = section.code AND jobservce.closedDate IS NULL) ORDER BY rDate DESC";	//get the details of the ongoing jobs
 
 					$con = new DatabaseCon($conn);
 
