@@ -80,8 +80,7 @@
 	border-bottom-left-radius: 37%;
 	background-color:#333;
 	font-size: 1.0em;
-	padding: 5%;
-	padding-left: 22%;
+	padding-left:5%;
 }
 
 .inner-mid-corner{
@@ -93,8 +92,6 @@
 	border-bottom-right-radius: 37%;
 	background-color:#333;
 	font-size: 1.0em;
-	padding-left: 5%;
-	padding-top:5%;
 }
 
 .button-text-1{
