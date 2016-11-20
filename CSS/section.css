@@ -1,0 +1,45 @@
+.page-area1{
+	position: relative;
+	padding: 1%;
+	/*border: 0.05em solid #DCC1CE;*/
+	border-radius: 2em;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.worker1{
+	position: relative;
+	float: left;
+	width:25%;
+	height:8%;
+	padding: 1%;
+	border: 0.2em solid #848484;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+.worker2{
+	position: relative;
+	float: left;
+	width:70%;
+	height:8%;
+	padding: 1%;
+	border: 0.2em solid #848484;
+	border-radius: 0.5em;
+	text-align: center;
+	margin-left: 2%;
+}
+
+.bt1{
+	position: relative;
+	float: left;
+	margin-left: 2%;
+	width: 35%;
+	background-color: rgb(247,170,32);
+	height: 5%;
+	padding: 2%;
+	text-align: center;
+	display: inline-block;
+	border-radius: 0.5em;
+}
