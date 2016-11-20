@@ -1,3 +1,8 @@
+<?php
+	$secCode=$_SESSION['section'];
+	$user=$_SESSION['user'];
+?>
+
 <header>
 	<style type="text/css">
 		.aname{
@@ -12,10 +17,6 @@
 		}
 	</style>
 	<div class="header">
-	<?php
-		$secCode=$_SESSION['section'];
-		$user=$_SESSION['user'];
-	?>
 		<div class="header1">
 			<div class="logo">CGTTI - <span style="font-size: 0.65em;"> Job Information System</span>
 			</div>
