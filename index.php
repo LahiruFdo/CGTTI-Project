@@ -1,3 +1,6 @@
+<?php
+	// $nicError = "error";
+?>
 <!DOCTYPE html>
 
 <html>
@@ -5,6 +8,15 @@
 	<title>CGTTI JobInfo</title> 
 	<link rel="stylesheet" type="text/css" href="CSS/index.css">
 	<meta name="viewport" content="width=device-width, initial-scale: 1.0, user-scaleable=no">
+	<style>
+		.error{
+			color: red;
+			font-size: 0.8em;
+			padding-bottom: 0%;
+			text-align: center;
+			background-color: #fff;
+		}
+	</style>
 </head>
 
 <body class="body">
@@ -71,8 +83,13 @@
 							<div class="inner">
 								<form action="login.php" method="post">
 									<ul id="login">
+										<?php 
+											if(isset($_SESSION['un'])){
+											 	echo "<div class='error' id='nicCheck'>Invalid username or password</div>";
+											}
+										?>
 										<li> Username: <br>
-											<input type="text" name="username" placeholder="username" autocomplete="off"></li>
+											<input type="text" name="username" placeholder="<?php if(isset($_SESSION['un'])){echo $_SESSION['un'];}else{echo 'username';}?>" autocomplete="off"></li>
 										<li> Password: <br>
 											<input type="password" name="password" placeholder="password"></li>
 									</ul>
