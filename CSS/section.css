@@ -3,9 +3,19 @@
 	padding: 1%;
 	/*border: 0.05em solid #DCC1CE;*/
 	border-radius: 2em;
-	width: 100%;
 	height: auto;
 	float: left;
+	width:52%;
+}
+
+.page-area2{
+	position: relative;
+	padding: 1%;
+	/*border: 0.05em solid #DCC1CE;*/
+	border-radius: 2em;
+	height: auto;
+	float: right;
+	width:48%;
 }
 
 .worker1{

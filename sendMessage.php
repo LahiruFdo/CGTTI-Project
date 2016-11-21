@@ -16,6 +16,7 @@
 		echo $msg." " ;
 		echo $type." " ;
 		echo $mDate." " ;
+		echo $tm;
 
 		$sqlm = "INSERT INTO messages (fr,t,type,content,mDate,mTime) VALUES ('$from','$to','$type','$msg','$mDate','$tm')";
 		$qry = mysqli_query($conn,$sqlm);

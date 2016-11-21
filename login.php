@@ -19,7 +19,7 @@
 		$pw = $_POST['password'];
 		$pw = md5($pw);
 
-		$squery1 = mysqli_query($conn, "SELECT pw FROM officer WHERE uname = '$uname' ");
+		$squery1 = mysqli_query($conn, "SELECT * FROM officer WHERE uname = '$uname' ");
 		$pwData = mysqli_fetch_array($squery1, MYSQLI_ASSOC);
 		$squery2 = mysqli_query($conn, "SELECT * FROM officer WHERE pw = '$pw' ");
 		$userData = mysqli_fetch_array($squery2, MYSQLI_ASSOC);
@@ -28,8 +28,8 @@
 		if (mysqli_num_rows($squery1)==1) {
 			if (mysqli_num_rows($squery2)>0) {
 				if($pwData["pw"] == $pw ){
-					$section=$userData['section'];
-					$name=$userData['name'];
+					$section=$pwData['section'];
+					$name=$pwData['name'];
 	  				$_SESSION['section']=$section;
 	  				$_SESSION['user']=$name;
                     //if the user is Job Officer.
