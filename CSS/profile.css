@@ -1,0 +1,168 @@
+
+.profImage{
+	position: relative;
+	margin-left: 65%;
+	width : 150px;
+	height : 180px;
+	border-radius: 0.5em;
+	border:  0.05em solid #2c3e50;
+	box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	-o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	cursor: pointer;
+}
+
+.pic-update{
+	position: relative;
+	margin-top: -25px;
+	height: 30px;
+	padding-top: 3%;
+	text-align: center;
+	/*opacity: 0.5;*/
+	background-color: #7A7D7E;
+	border-bottom-left-radius: 0.4em;
+	border-bottom-right-radius: 0.4em;
+	border-bottom:  0.1em solid #2c3e50;
+	color:#fff;
+}
+
+.profile-button{
+	position: relative;
+	height: 50px;
+	background-color:rgb(247,170,32);
+	width:24.2%;
+	float:left;
+	margin-left: 5%;
+	color:#fff;
+	font-size: 1.1em;
+	box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	-o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	cursor: pointer;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.send-button{
+	position: relative;
+	height: 35px;
+	background-color:rgb(247,170,32);
+	width:8%;
+	float:left;
+	margin-left: 2%;
+	margin-top: 2%;
+	color:#fff;
+	font-size: 0.8em;
+	box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	-o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	cursor: pointer;
+	text-align: center;
+	padding-top: 2px;
+}
+
+.profile-button a{
+	text-decoration-style: none;
+	color: #fff;
+}
+
+.profCard{
+	position: relative;
+	float: left;
+	background-color: #BCBDC0;
+	width: 60%;
+	padding: 2%;
+}
+
+.nameCard{
+	position: relative;
+	float: left;
+	background-color: #2c3e50;
+	width: 30%;
+	padding: 2%;
+	margin-bottom: 1%;
+	text-align: center;
+	font-size: 1.2em;
+	color: #fff;
+}
+
+.answerCard{
+	position: relative;
+	float: right;
+	background-color: #A17960;
+	width: 70%;
+	padding: 2%;
+	margin-bottom: 1%;
+	font-size: 1.2em;
+	padding-left: 5%;
+}
+
+#comment{
+	display: none;
+}
+
+#message{
+	display: none;
+}
+
+#pw1{
+	display: none;
+}
+
+.pw-change{
+	position: relative;
+	background-color: #fff;
+	float: left;
+	width : 60%;
+	padding: 2%;
+	margin-top: 1%;
+	height: auto;
+	border:  0.1em solid #2c3e50;
+}
+
+.inputName{
+	position: relative;
+	float: left;
+	background-color: #A17960;
+	width: 32%;
+	padding: 1%;
+	margin-bottom: 1%;
+	font-size: 0.8em;
+	padding-left: 5%;
+}
+
+.pw-change input{
+	margin-left: 2%;
+	width: 43%;
+	border: 0.1em solid rgb(247,170,32);
+	padding: 1%;
+	margin-bottom: 1%;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.update-button{
+	position: relative;
+	height: 35px;
+	background-color:rgb(247,170,32);
+	width:12%;
+	float:right;
+	margin-right: 4%;
+	margin-top: -2%;
+	color:#fff;
+	font-size: 0.8em;
+	box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	-o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+	cursor: pointer;
+	text-align: center;
+	padding-top: 2px;
+}
+
+.warning{
+	color: red;
+}

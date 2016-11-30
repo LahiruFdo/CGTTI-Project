@@ -56,7 +56,7 @@ include '../config.php';
 		$qry4 = mysqli_query($conn,$sql4);
 		$qry = mysqli_query($conn,$sqlm);
 		// if($qry3 && $qry4 && $qry){
-			header('Location:jobOffice.php');
+			header('Location:jobOffice1.php');
 		// }
 	}
 
@@ -67,7 +67,7 @@ include '../config.php';
 		$qry4 = mysqli_query($conn,$sql4);
 		$qry = mysqli_query($conn,$sqlm);
 		// if($qry2 && $qry3 && $qry4 && $qry){
-			header('Location:jobOffice.php');
+			header('Location:jobOffice1.php');
 		// }
 	}
 	// $pwData = mysqli_fetch_array($squery1, MYSQLI_ASSOC);
@@ -79,7 +79,7 @@ include '../config.php';
 		$qry4 = mysqli_query($conn,$sql4);
 		$qry = mysqli_query($conn,$sqlm);
 		// if($qry1 && $qry3 && $qry4 && $qry){
-			header('Location:jobOffice.php');
+			header('Location:jobOffice1.php');
 		// }
 	}
 
@@ -91,7 +91,7 @@ include '../config.php';
 		$qry4 = mysqli_query($conn,$sql4);
 		$qry = mysqli_query($conn,$sqlm);
 		// if($qry1 && $qry2 && $qry3 && $qry4 && $qry){
-			header('Location:jobOffice.php');
+			header('Location:jobOffice1.php');
 		// }
 	}
 

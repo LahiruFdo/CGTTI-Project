@@ -173,6 +173,7 @@ ul#nav li a:active{
 	margin-top: 1%;
 }
 
+
 .chart-header{
 	position: relative;
 	height:auto;
@@ -407,7 +408,6 @@ ul#nav li a:active{
 }
 
 .profInfo th, td {
-    text-align: center;
     padding: 1%;
     border: 1px solid rgb(254,217,180);
     border-collapse: collapse;
@@ -422,6 +422,7 @@ ul#nav li a:active{
 }
 
 .profInfo a{
+	padding-left: 5%;
 	display: block;
 	cursor: pointer;
 }

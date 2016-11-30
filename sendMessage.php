@@ -23,7 +23,10 @@
 		//header('location:$loc');
 
 		if($qry){
-			if($_SESSION["section"]=="JO"){
+			if(($_SESSION["section"]=="JO")&&($jn="JO")){
+				header("Location:jobOffice/myProfile.php");
+			}
+			else if($_SESSION["section"]=="JO"){
 				header("Location:jobOffice/JOviewjob.php?id=$jn");
 			}
 			else if($_SESSION["section"]=="ACC"){

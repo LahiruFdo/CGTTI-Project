@@ -35,7 +35,7 @@
                     //if the user is Job Officer.
 					if($section=="JO"){
 						// echo "ok";
-						header('Location: jobOffice/jobOffice.php');
+						header('Location: jobOffice/jobOffice1.php');
 					}
                     else if($section=="ACC"){
 						header('Location: Account/account.php');

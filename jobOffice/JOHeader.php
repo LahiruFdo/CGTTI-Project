@@ -29,8 +29,8 @@
 		<div id="dd" style="float:right; z-index: 999;margin-right: 3%; width: 10%; display: none;">
 			<div class="dropbar">
 				<ul id="nav">
-					<li><a href="#">My Profile</a></li>
-					<li><a href="#">Messages</a></li>
+					<li><a href="myProfile.php">My Profile</a></li>
+					<li><a href="message.php">Messages</a></li>
 					<li><a href="../logout.php">Log Out</a></li>
 				</ul>
 			</div>						
@@ -45,7 +45,7 @@
 		<br>
 		<!--<div class="profile-image"><img src="images/user1.png" /></div>-->
 		<ul id="nav">
-			<li><a  style="font-size: 1.3em;border-top: 0.05em solid #403D3E;" href="jobOffice.php"><i class="fa fa-home"></i><span class="aname">My Home</span></a></li>
+			<li><a  style="font-size: 1.3em;border-top: 0.05em solid #403D3E;" href="jobOffice1.php"><i class="fa fa-home"></i><span class="aname">My Home</span></a></li>
 			<li><a  href="JOregister1.php"><i class="fa fa-plus"></i><span class="aname">Add New Job</span></a></li>	
 			<li><a  href="JOview.php?id=0"><i class="fa fa-cogs"></i><span class="aname">View All Jobs</span></a></li>	
 			<li><a  href="JOnewClosedJ.php?id=0"><i class="fa fa-cog"></i><span class="aname">Completed Jobs</span></a></li>
